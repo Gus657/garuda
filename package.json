@@ -1,5 +1,5 @@
 {
-  "name": "my-lib",
+  "name": "garuda",
   "version": "0.0.3",
   "scripts": {
     "build": "rimraf dist && vue-tsc && vite build",
