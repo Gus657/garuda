@@ -1,6 +1,6 @@
 const path = require('path');
 const { defineConfig } = require('vite');
-import vue from '@vitejs/plugin-vue';
+import vue from '@vitejs/plugin-vue2';
 
 module.exports = defineConfig({
   plugins: [vue()], // to process SFC

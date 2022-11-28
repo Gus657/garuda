@@ -8,6 +8,6 @@ const props = defineProps<Props>()
 
 <template>
   <div>
-    Hello {{ msg }}! <span class="icon-heart" style="color:tomato"></span>
+    Hello Gus! <span class="icon-heart" style="color:tomato"></span>
   </div>
 </template>

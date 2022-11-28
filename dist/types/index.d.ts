@@ -1,5 +1,5 @@
-import { App } from 'vue';
-declare function install(app: App): void;
+import Vue from 'vue';
+declare function install(app: Vue): void;
 import './assets/main.scss';
 declare const _default: {
     install: typeof install;
