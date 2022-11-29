@@ -1,7 +1,5 @@
-import ComponentA from './ComponentA.vue'
-import ComponentB from './ComponentB.vue'
+import DancingHommer from './dancing-homer/DancingHomer'
 
 export {
-  ComponentA,
-  ComponentB
+  DancingHommer
 }
