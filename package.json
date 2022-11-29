@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.10",
   "type": "module",
+  "types": "garuda.d.ts",
+  "files": [
+    "dist/*",
+    "garuda.d.ts"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: resolve(__dirname, 'src/garuda.ts'),
       name: 'garuda',
       formats: ['es', 'cjs'],
       fileName: 'garuda'
@@ -16,7 +16,7 @@ export default defineConfig({
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      input: resolve(__dirname, 'src/index.ts'),
+      input: resolve(__dirname, 'src/garuda.ts'),
       external: ['vue'],
       output: {
         // Provide global variables to use in the UMD build
